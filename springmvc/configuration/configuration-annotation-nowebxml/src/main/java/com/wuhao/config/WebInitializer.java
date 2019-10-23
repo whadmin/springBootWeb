@@ -1,7 +1,5 @@
 package com.wuhao.config;
 
-import com.wuhao.config.ContextConfig;
-import com.wuhao.config.WebMvcConfig;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
 public class WebInitializer extends

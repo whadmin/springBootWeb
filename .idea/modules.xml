@@ -8,11 +8,15 @@
       <module fileurl="file://$PROJECT_DIR$/Chapter3-1-4/Chapter3-1-4.iml" filepath="$PROJECT_DIR$/Chapter3-1-4/Chapter3-1-4.iml" />
       <module fileurl="file://$PROJECT_DIR$/Chapter3-1-5/Chapter3-1-5.iml" filepath="$PROJECT_DIR$/Chapter3-1-5/Chapter3-1-5.iml" />
       <module fileurl="file://$PROJECT_DIR$/Chapter3-1-6/Chapter3-1-6.iml" filepath="$PROJECT_DIR$/Chapter3-1-6/Chapter3-1-6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springmvc/component/component.iml" filepath="$PROJECT_DIR$/springmvc/component/component.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springmvc/configuration/configuration.iml" filepath="$PROJECT_DIR$/springmvc/configuration/configuration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springmvc/configuration/configuration-annotation-nowebxml/configuration-annotation-nowebxml.iml" filepath="$PROJECT_DIR$/springmvc/configuration/configuration-annotation-nowebxml/configuration-annotation-nowebxml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springmvc/configuration/configuration-annotation-webxml/configuration-annotation-webxml.iml" filepath="$PROJECT_DIR$/springmvc/configuration/configuration-annotation-webxml/configuration-annotation-webxml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springmvc/configuration/configuration-xml-webxml/configuration-xml-webxml.iml" filepath="$PROJECT_DIR$/springmvc/configuration/configuration-xml-webxml/configuration-xml-webxml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springmvc/component/requestMapping/requestMapping.iml" filepath="$PROJECT_DIR$/springmvc/component/requestMapping/requestMapping.iml" />
+      <module fileurl="file://$PROJECT_DIR$/servlet/servlet.iml" filepath="$PROJECT_DIR$/servlet/servlet.iml" />
       <module fileurl="file://$PROJECT_DIR$/springBoot-web.iml" filepath="$PROJECT_DIR$/springBoot-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/springmvc/springmvc.iml" filepath="$PROJECT_DIR$/springmvc/springmvc.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springmvc/springmvc-nowebxml-annotation/springmvc-nowebxml-annotation.iml" filepath="$PROJECT_DIR$/springmvc/springmvc-nowebxml-annotation/springmvc-nowebxml-annotation.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springmvc/springmvc-webxml-annotation/springmvc-webxml-annotation.iml" filepath="$PROJECT_DIR$/springmvc/springmvc-webxml-annotation/springmvc-webxml-annotation.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springmvc/springmvc-webxml-xml/springmvc-webxml-xml.iml" filepath="$PROJECT_DIR$/springmvc/springmvc-webxml-xml/springmvc-webxml-xml.iml" />
     </modules>
   </component>
 </project>
