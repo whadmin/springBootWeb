@@ -2,7 +2,8 @@
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/servlet" />
-    <file type="web" url="file://$PROJECT_DIR$/springmvc/configuration-xml-nowebxml" />
+    <file type="web" url="file://$PROJECT_DIR$/springboot-war-start" />
+    <file type="web" url="file://$PROJECT_DIR$/springmvc/component/requestMapping" />
     <file type="web" url="file://$PROJECT_DIR$/springmvc/configuration/configuration-annotation-nowebxml" />
     <file type="web" url="file://$PROJECT_DIR$/springmvc/configuration/configuration-annotation-webxml" />
     <file type="web" url="file://$PROJECT_DIR$/springmvc/configuration/configuration-xml-webxml" />
@@ -12,12 +13,6 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
-    </option>
-    <option name="ignoredFiles">
-      <set>
-        <option value="$PROJECT_DIR$/springmvc/component/pom.xml" />
-        <option value="$PROJECT_DIR$/springmvc/requestparam/pom.xml" />
-      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
