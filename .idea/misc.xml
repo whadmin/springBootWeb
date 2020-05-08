@@ -7,18 +7,15 @@
     <file type="web" url="file://$PROJECT_DIR$/springmvc/configuration/configuration-annotation-nowebxml" />
     <file type="web" url="file://$PROJECT_DIR$/springmvc/configuration/configuration-annotation-webxml" />
     <file type="web" url="file://$PROJECT_DIR$/springmvc/configuration/configuration-xml-webxml" />
+    <file type="web" url="file://$PROJECT_DIR$/springmvc/springmvc-core" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-web-parent/pom.xml" />
-      </list>
-    </option>
-    <option name="ignoredFiles">
-      <set>
         <option value="$PROJECT_DIR$/springboot-start/springboot-jar-start/pom.xml" />
-      </set>
+      </list>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
