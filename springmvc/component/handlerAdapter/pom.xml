@@ -4,18 +4,17 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <groupId>org.springweb</groupId>
-        <artifactId>springmvc</artifactId>
+        <artifactId>component</artifactId>
         <version>0.0.1-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>component</artifactId>
+    <artifactId>handlerAdapter</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
     <modules>
-        <module>requestMapping</module>
-        <module>handlerAdapter</module>
+        <module>requestMappingHandlerAdapter</module>
     </modules>
 
     <packaging>pom</packaging>

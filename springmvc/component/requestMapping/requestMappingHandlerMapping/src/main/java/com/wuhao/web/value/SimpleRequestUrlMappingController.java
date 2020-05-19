@@ -1,4 +1,4 @@
-package com.wuhao.web.requestUrlMapping;
+package com.wuhao.web.value;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

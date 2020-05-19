@@ -12,9 +12,15 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @RequestMapping("/header3")
 public class RequestHeaderController3 {
 
-    @RequestMapping(value="/header/test8", headers = {"Accept!=text/vnd.wap.wml", "abc=123"})
-    public String test5() {
-        System.out.println("=========Accept!=text/vnd.wap.wml , abc=123");
+    @RequestMapping(headers = "Accept=text/*", method = RequestMethod.GET)
+    public String test23() {
+        System.out.println("=========Accept=text/*");
+        return "success";
+    }
+
+    @RequestMapping(headers = "Accept=*/*", method = RequestMethod.POST)
+    public String test24() {
+        System.out.println("=========Accept=*/*");
         return "success";
     }
 }

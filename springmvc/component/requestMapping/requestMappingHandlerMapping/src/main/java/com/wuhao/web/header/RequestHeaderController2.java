@@ -9,18 +9,19 @@ import org.springframework.web.bind.annotation.RequestMethod;
  * @Date: 2020/5/19 14:31
  */
 @Controller
-@RequestMapping("/header1")
+@RequestMapping("/header2")
 public class RequestHeaderController2 {
 
-    @RequestMapping(headers = "Content-Type=application/json", method= RequestMethod.GET)
+    @RequestMapping(headers = "Content-Type=application/json", method=RequestMethod.GET)
     public String test21() {
-        System.out.println("=========Content-Type=text/json");
+        System.out.println("=========Content-Type=application/json");
         return "success";
     }
 
     @RequestMapping(headers = "Content-Type!=application/json", method=RequestMethod.POST)
     public String test22() {
-        System.out.println("=========Content-Type=text/json");
+        System.out.println("=========Content-Type!=text/json");
         return "success";
     }
+
 }

@@ -3,6 +3,7 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/servlet" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-start/springboot-war-start" />
+    <file type="web" url="file://$PROJECT_DIR$/springmvc/component/handlerAdapter/requestMappingHandlerAdapter" />
     <file type="web" url="file://$PROJECT_DIR$/springmvc/component/requestMapping" />
     <file type="web" url="file://$PROJECT_DIR$/springmvc/configuration/configuration-annotation-nowebxml" />
     <file type="web" url="file://$PROJECT_DIR$/springmvc/configuration/configuration-annotation-webxml" />
