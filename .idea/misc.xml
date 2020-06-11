@@ -3,8 +3,11 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/servlet" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-start/springboot-war-start" />
+    <file type="web" url="file://$PROJECT_DIR$/springmvc/component/exceptionHandler" />
     <file type="web" url="file://$PROJECT_DIR$/springmvc/component/handlerAdapter/requestMappingHandlerAdapter" />
-    <file type="web" url="file://$PROJECT_DIR$/springmvc/component/requestMapping" />
+    <file type="web" url="file://$PROJECT_DIR$/springmvc/component/requestMapping/beanNameUrlHandlerMapping" />
+    <file type="web" url="file://$PROJECT_DIR$/springmvc/component/requestMapping/requestMappingHandlerMapping" />
+    <file type="web" url="file://$PROJECT_DIR$/springmvc/component/requestMapping/simpleUrlHandlerMapping" />
     <file type="web" url="file://$PROJECT_DIR$/springmvc/configuration/configuration-annotation-nowebxml" />
     <file type="web" url="file://$PROJECT_DIR$/springmvc/configuration/configuration-annotation-webxml" />
     <file type="web" url="file://$PROJECT_DIR$/springmvc/configuration/configuration-xml-webxml" />
@@ -14,14 +17,13 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/springboot-web-parent/pom.xml" />
-        <option value="$PROJECT_DIR$/springboot-start/springboot-jar-start/pom.xml" />
-        <option value="$PROJECT_DIR$/springmvc/springmvc-helloworld/pom.xml" />
-        <option value="$PROJECT_DIR$/springmvc/component/pom.xml" />
       </list>
     </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/exceptionHandler/pom.xml" />
+      </set>
+    </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
-    <output url="file://$PROJECT_DIR$/classes" />
-  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
 </project>

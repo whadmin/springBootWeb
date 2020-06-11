@@ -6,7 +6,7 @@
 
     <parent>
         <groupId>org.springweb</groupId>
-        <artifactId>springboot-web</artifactId>
+        <artifactId>spring-web-in-action</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 

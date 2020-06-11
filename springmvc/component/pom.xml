@@ -16,6 +16,7 @@
     <modules>
         <module>requestMapping</module>
         <module>handlerAdapter</module>
+        <module>exceptionHandler</module>
     </modules>
 
     <packaging>pom</packaging>
