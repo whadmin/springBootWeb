@@ -1,0 +1,53 @@
+<web-app
+        xmlns="http://java.sun.com/xml/ns/javaee"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+        version="3.0"
+        metadata-complete="false"
+>
+
+    <!-- Spring 上下文实现类 -->
+    <context-param>
+        <param-name>msg</param-name>
+        <param-value>
+            hello World
+        </param-value>
+    </context-param>
+
+
+    <!-- 加载spring 上下文 Listener-->
+    <listener>
+        <listener-class>com.wuhao.listener.HelloWorldListener</listener-class>
+    </listener>
+
+    <servlet>
+        <servlet-name>helloWorldServlet</servlet-name>
+        <servlet-class>com.wuhao.servlet.HelloWorldServlet</servlet-class>
+        <init-param>
+            <param-name>msg</param-name>
+            <param-value>helloWorld</param-value>
+        </init-param>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>helloWorldServlet</servlet-name>
+        <url-pattern>/helloWorld</url-pattern>
+    </servlet-mapping>
+
+    <filter>
+        <filter-name>helloWorldFilter</filter-name>
+        <filter-class>com.wuhao.filter.HelloWorldFilter</filter-class>
+    </filter>
+
+    <filter-mapping>
+        <filter-name>helloWorldFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+
+
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+
+</web-app>

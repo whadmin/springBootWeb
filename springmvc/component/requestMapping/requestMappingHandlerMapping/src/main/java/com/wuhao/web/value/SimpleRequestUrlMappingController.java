@@ -16,7 +16,7 @@ public class SimpleRequestUrlMappingController {
         return "index";
     }
 
-    @RequestMapping(value = {"/test1", "/test2"})
+    @RequestMapping(value = {"/test2"})
     public String test23() {
         return "index";
     }
